@@ -11,3 +11,61 @@ html{
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
+
+.header-main{
+  color: #ddd26f;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+
+.header-box{
+  height: 100vh;
+  background-image: linear-gradient(rgba(10,10,10,0.7),rgba(15,15,15,0.6)),url(../img/cafe.jpg);
+  background-size: cover;
+
+}
+
+.header-text{
+  position: absolute;
+  width: 1140px;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn:link, .btn:visited{
+  border: 2px solid #f59945;
+  border-radius: 30px;
+  text-decoration: none;
+margin-left: 20px;
+padding: 10px 30px;
+
+}
+
+
+.btn-full:link , .btn-full:visited{
+  color: #fff;
+  background-color: #f59945;
+  transition: 0.5s;
+}
+
+.btn-full:hover , .btn-full:active{
+  color: #fff;
+  background-color: #ba6a21;
+  transition: 0.5s;
+}
+
+.btn-ghost:link, .btn-ghost:visited{
+  color: #f59945;
+  transition: 0.5s;
+}
+
+.btn-ghost:hover, .btn-ghost:active{
+  background-color: #f59945;
+  color: #FFF;
+  transition: 0.5s;
+}
